@@ -1,0 +1,47 @@
+# ----------------------------------
+# Python
+# ----------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.env
+.venv/
+venv/
+env/
+
+# ----------------------------------
+# VS Code
+# ----------------------------------
+.vscode/
+
+# ----------------------------------
+# Sistemas operacionais
+# ----------------------------------
+.DS_Store
+Thumbs.db
+
+# ----------------------------------
+# Dados de saída (gerados)
+# ----------------------------------
+/Dados/*.csv
+/Dados/*.parquet
+/Dados/*.xlsx
+
+# ----------------------------------
+# Dados geoespaciais (raw)
+# Mantém apenas se você decidir versionar o shapefile
+# ----------------------------------
+/BR_Municipios_2024/*.dbf
+/BR_Municipios_2024/*.shx
+/BR_Municipios_2024/*.cpg
+/BR_Municipios_2024/*.prj
+
+# Ignore também o .shp se NÃO quiser versionar dados brutos
+/BR_Municipios_2024/*.shp
+
+# ----------------------------------
+# Logs
+# ----------------------------------
+*.log
+
